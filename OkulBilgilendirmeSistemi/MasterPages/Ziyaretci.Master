@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Ziyaretci.master.cs" Inherits="OkulBilgilendirmeSistemi.MasterPages.Ziyaretci" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Website menu 09</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/MasterPages/css/style.css">
+</head>
+
+
+<body>
+    <form id="form1" runat="server">
+        <div id="colorlib-page">
+            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+            <aside id="colorlib-aside" role="complementary" class="js-fullheight">
+                <nav id="colorlib-main-menu" role="navigation">
+                    <ul>
+                        <li><a href="/ZiyaretciSayfalar/Duyurular.aspx">Duyurular</a></li>
+                        <li><a href="/ZiyaretciSayfalar/Iletisim.aspx">İletişim</a></li>
+                        <li><a href="#">Öğrenci Giriş</a></li>
+                        <li><a href="#">Öğretmen Giriş</a></li>
+                        <li><a href="#">Yetkili Giriş</a></li>
+                    </ul>
+                </nav>
+            </aside>
+       
+        </div>
+        <!-- END COLORLIB-PAGE -->
+
+        </section>
+
+
+
+        <script src="/MasterPages/js/jquery.min.js"></script>
+        <script src="/MasterPages/js/popper.js"></script>
+        <script src="/MasterPages/js/bootstrap.min.js"></script>
+        <script src="/MasterPages/js/main.js"></script>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
